@@ -13,6 +13,14 @@ class dicegame{
 
 	System.out.printf("Dice1: %d\nDice2: %d\nTotal value: %d\n",x,y,z);
 
+	if(z>7){
+	    System.out.println("you won");
+	}
+	else{
+	    System.out.println("you lost");
+	}
+	
+
     }
 
 }
